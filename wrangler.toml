@@ -1,0 +1,12 @@
+name = "portfolio"
+type = "javascript"
+
+account_id = "your-account-id"
+workers_dev = true
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./build"  # Replace with your actual publish directory
+entry-point = "./"
